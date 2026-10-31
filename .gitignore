@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+**/node_modules/
+.pnp
+.pnp.js
+
+# Production builds
+dist/
+build/
+**/dist/
+**/build/
+
+# Environment Variables
+.env
+.env.*
+**/.env
+**/.env.*
+!.env.example
+
+# Multer uploads directory
+server/uploads/*
+!server/uploads/.gitkeep
+
+# System & Editor files
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.vscode/
+.idea/
